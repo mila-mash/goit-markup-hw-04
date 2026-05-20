@@ -47,14 +47,11 @@
   color: #404bbf;
 }
 
-.footer-socials {
-  margin-top: 16px;
-}
-
 .footer-list {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-top: 16px;
 }
 
 .footer-item a {

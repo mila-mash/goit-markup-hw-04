@@ -33,7 +33,7 @@
   margin-top: 8px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 24px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,4 +52,8 @@
 .team-soc-item a:hover,
 .team-soc-item a:focus {
   background-color: #404bbf;
+}
+
+.team-icon {
+  fill: #f4f4fd;
 }

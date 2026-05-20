@@ -30,11 +30,12 @@
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+  font-weight: 500;
 }
 
 .end-logo {
@@ -53,7 +54,6 @@
 .footer-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
 }
 
@@ -74,4 +74,8 @@
 .footer-item a:hover,
 .footer-item a:focus {
   background-color: #31d0aa;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
 }

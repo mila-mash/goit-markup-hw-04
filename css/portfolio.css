@@ -1,3 +1,5 @@
+/* знову не розумію, про яку тінь йдеться */
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -29,6 +31,8 @@
   position: absolute;
   left: 0;
   top: 0;
+  bottom: 0;
+  right: 0;
   background-color: #4d5ae5;
   height: 100%;
   color: #f4f4fd;
@@ -44,7 +48,7 @@
   padding-right: 32px;
 }
 
-.portfolio-pic-wrapper:hover .portfolio-overlay {
+.portfolio-item:hover .portfolio-overlay {
   transform: translateY(0);
 }
 
